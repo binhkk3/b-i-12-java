@@ -20,10 +20,10 @@ public class Main {
         hashMap.put("end","kết thúc");
         System.out.println("nhập vào 1 chữ ");
         String key = scanner.nextLine();
-        if (hashMap.containsKey(key)){
-            System.out.println("nghĩa củ từ "+key+" là " +hashMap.get(key));
-        }else {
-            System.out.println("không có đâu cu dừng tìm " );
-        }
+if (hashMap.containsKey(key)){
+    System.out.println("nghĩa củ từ "+key+" là " +hashMap.get(key));
+}else {
+    System.out.println("không có đâu cu dừng tìm " );
+}
     }
 }
